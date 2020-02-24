@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.dibe.bigdata.scala</groupId>
+    <artifactId>Scalalearning</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>ScalaForTheImpatient</module>
+    </modules>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <spark.version>2.4.3</spark.version>
+        <hadoop.version>2.7.7</hadoop.version>
+        <hive.version>2.1.1</hive.version>
+    </properties>
+
+    <repositories>
+        <!--        longi private nexus repository-->
+        <repository>
+            <name>nexus-longi-bigdata</name>
+            <id>nexus-bigdata</id>
+            <url>http://10.0.10.99:8081/repository/maven-public/</url>
+        </repository>
+
+        <repository>
+            <name>hw-cloud-MRS</name>
+            <id>huaweicloudsdk</id>
+            <url>https://repo.huaweicloud.com/repository/maven/huaweicloudsdk/</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+
+        <repository>
+            <name>cdh</name>
+            <id>cloudera</id>
+            <url>https://repository.cloudera.com/artifactory/cloudera-repos/</url>
+        </repository>
+
+    </repositories>
+
+
+    <dependencies>
+    <!--        自定义工具包-->
+        <dependency>
+            <groupId>com.longi.bigdata</groupId>
+            <artifactId>spark-utils</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.scala-lang</groupId>
+            <artifactId>scala-library</artifactId>
+        <version>2.11.12</version>
+        </dependency>
+    </dependencies>
+
+</project>
