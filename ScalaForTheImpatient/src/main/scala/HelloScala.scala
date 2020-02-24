@@ -8,5 +8,6 @@
 object HelloScala {
   def main(args: Array[String]): Unit = {
     println("Hello Scala World!")
+    println("Scala Scala Scala")
   }
 }
