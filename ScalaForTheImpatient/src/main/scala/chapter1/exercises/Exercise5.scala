@@ -1,4 +1,4 @@
-package chapter1.exercise
+package chapter1.exercises
 
 /**
  * @ project:  Scalalearning
@@ -12,7 +12,7 @@ object Exercise5 {
     /****
      * 5. 10 max 2 的含义是什么？ max方法定义在哪个类中？
      *
-     * Q: 可以写成10.max(2), 含义是取10和2的最大值。
+     * A: 可以写成10.max(2), 含义是取10和2的最大值。
      * 该方法实际定义在ScalaNumberProxy中，由RichInt继承该类实现， Int隐式转换为RichInt调用该方法。
      *
      * def max(that: Int): Int

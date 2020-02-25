@@ -1,4 +1,4 @@
-package chapter1.exercise
+package chapter1.exercises
 
 /**
  * @ project:  Scalalearning

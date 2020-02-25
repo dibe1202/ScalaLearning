@@ -1,4 +1,4 @@
-package chapter1.exercise
+package chapter1.exercises
 
 
 /**
@@ -14,7 +14,7 @@ object Exercise7 {
      * 7. 为了在使用probablePrime(lOO,Random）获取随机质数时不在
      * probablePrime和Random之前使用任何限定符，你需要引人什么？
      *
-     * Q: 导入 import scala.math.BigInt._和scala.util.Random
+     * A: 导入 import scala.math.BigInt._和scala.util.Random
      */
     import scala.math.BigInt._
     import scala.util.Random

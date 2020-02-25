@@ -1,4 +1,4 @@
-package chapter1.exercise
+package chapter1.exercises
 
 /**
  * @ project:  Scalalearning
@@ -13,7 +13,7 @@ object Exercise10 {
      * 10.  take 、drop 、takeRight 和dropRight 这些字符串方法是做什么用的？和
      * substring相比，它们的优点和缺点都有哪些？
      *
-     * Q:
+     * A:
      *   def take(n: Int): String    // Selects first n elements.
      *   def drop(n: Int): String    // Selects all elements except first n ones.
      *   def takeRight(n: Int): String  // Selects last n elements.

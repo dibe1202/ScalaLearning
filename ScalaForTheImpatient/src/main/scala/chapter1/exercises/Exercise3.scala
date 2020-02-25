@@ -1,4 +1,4 @@
-package chapter1.exercise
+package chapter1.exercises
 
 /**
  * @ project:  Scalalearning
@@ -12,7 +12,7 @@ object Exercise3 {
     /****
      *  3. res变量是val 还是var?
      *
-     *  Q: 在REPL中，res是val
+     *  A: 在REPL中，res是val
      */
     //    scala> 1 + 1
     //    res3: Int = 2

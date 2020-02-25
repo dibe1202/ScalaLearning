@@ -1,4 +1,4 @@
-package chapter1.exercise
+package chapter1.exercises
 
 /**
  * @ project:  Scalalearning
@@ -12,7 +12,7 @@ object Exercise6 {
     /****
      * 6. 用BigInt 计算2的1024次方。
      *
-     * Q: 一共有309位数
+     * A: 一共有309位数
      */
 
     //    scala > BigInt(2).pow(1024)
