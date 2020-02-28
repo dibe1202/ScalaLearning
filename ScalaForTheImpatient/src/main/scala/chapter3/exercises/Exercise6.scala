@@ -1,5 +1,7 @@
 package chapter3.exercises
 
+import scala.collection.mutable.ArrayBuffer
+
 /**
  * @ project:  Scalalearning
  * @ package:  chapter3.exercises
@@ -17,6 +19,10 @@ object Exercise6 {
     val arr = Array(1, 2, 3, 4, 5, 6)
     val res1 = arr.reverse // 逆序后生成一个新的数组
     println(res1.mkString(" "))
+
+    val arrBuffer = ArrayBuffer(1, 2, 3, 4, 5, 6)
+    val res2 = arrBuffer.reverse
+    println(res2.mkString(" "))
 
   }
 }
