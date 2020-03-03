@@ -7,14 +7,10 @@ import java.util
  * @ package:  chapter4.test
  * @ author:   whn
  * @ date:     2020-3-2 14:04
- * @ Function:
+ * @ Function: 第四章 映射和元组
  */
 object Overview {
   def main(args: Array[String]): Unit = {
-    /**
-     * 第4章 映射和元组
-     */
-
     /**
      * 1. 构造映射,映射通常只是用来查询数据。
      */

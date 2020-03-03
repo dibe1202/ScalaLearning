@@ -5,7 +5,7 @@ package chapter2.test
  * @ package:  chapter2.test
  * @ author:   whn
  * @ date:     2020-2-24 14:50
- * @ Function:    
+ * @ Function: 第二章 控制结构和函数
  */
 object Overview {
   def main(args: Array[String]): Unit = {
