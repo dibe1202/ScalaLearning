@@ -31,6 +31,7 @@ object OperationWithJava {
     val command = ArrayBuffer("ls","-al", "/home/cay")
     val pb = new ProcessBuilder(command)  // 该java方法需要传递一个List<String>， 通过隐式转换，会将scala的ArrayBuffer转换成该java对象
 
+    import scala.collection.JavaConversions._
     import scala.collection.JavaConversions.asScalaBuffer
     import scala.collection.mutable.Buffer
     val cmd:Buffer[String] = pb.command()  // java方法返回的List<String>类型，通过隐式转换转换为scala的Buffer[String]
